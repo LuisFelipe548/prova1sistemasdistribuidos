@@ -1,7 +1,7 @@
 from xmlrpc.client import ServerProxy
 
-servidor = ServerProxy("http://localhost:8003/")
+servidor = ServerProxy("http://localhost:8002/")
 
-resultado servidor.calcular_entrega(8,3)
+resultado = servidor.consultar_saldo(15, 4)
 
-print("Valor da entrega:", resultado)
+print("Unidades restantes:", resultado)
