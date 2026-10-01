@@ -1,25 +1,29 @@
-# prova1sistemasdistribuidos
+# Prova 1 de Sistemas Distribuidos
+
 Nome: Luis Felipe Cardoso
-RA:FO352a9b57c8aa4c9492
+RA: FO352a9b57c8aa4c9492
 
 ## Problema da empresa
 
-[Descreva com suas palavras , o calculo solicitado no enunciado. ]
-R:
+A empresa precisa informar o estoque do produto da empresa fazendo a conta de saldo inicial - o saldo que vendeu
 
 ## Arquivos
 
--servidor.py: recebe a chamada RPC e executa o calculo.
-
--cliente.py:solicita o calculo ao sercidor e mostra a resposta.
+- servidor.py: recebe a chamada RPC e executa o cálculo.
+- cliente.py: solicita o cálculo ao servidor e mostra a resposta.
 
 ## Resultado do teste
 
-[cole aqui a saida apresentada ao executar o cliente]
+PS C:\Users\aluno\Desktop>  & 'C:\Program Files\Python313\python.exe' 'c:\Users\aluno\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy\launcher' '55414' '--' 'c:\Users\aluno\Desktop\cliente.py' 
+Unidades restantes: 11
 
+## Explicação 
 
-# Explicação
+1. Em qual programa o cálculo foi executado?
+   Servidor
 
-1)R:
-2)R:
-3)R:
+2. Qual programa iniciou a solicitação?
+   Cliente
+
+3. O que aconteceria com o cliente se o servidor estivesse desligado?
+   Daria um erro e não sairia nenhum resultado, pois o calculo só está no servidor.
